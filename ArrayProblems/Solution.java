@@ -19,7 +19,13 @@ public class Solution {
 
         return longest;
     }
+
     public static void main(String[] args) {
-        System.out.println("---> ");
+        Solution obj = new Solution();
+        
+        int[] arr = {2, 1, 5, 1, 3, 2};
+        System.out.println("---> " + 
+        obj.slidingWindow(arr, 3)
+        );
     }
 }
