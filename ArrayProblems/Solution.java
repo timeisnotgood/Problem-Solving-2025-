@@ -20,6 +20,7 @@ public class Solution {
         return longest;
     }
 
+    
     public static void main(String[] args) {
         Solution obj = new Solution();
         
